@@ -1,0 +1,3 @@
+[submodule "src/rgbdemo"]
+	path = src/rgbdemo
+	url = git://github.com/nburrus/rgbdemo.git

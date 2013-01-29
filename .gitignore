@@ -11,3 +11,8 @@
 *.lai
 *.la
 *.a
+
+# All in build and backup files
+build/**
+*~
+src/*~
