@@ -9,6 +9,7 @@
 #define COMMON_H_
 
 #include <pcl/point_types.h>
+#include <pcl/point_cloud.h>
 
 #define FPS_CALC_BEGIN                          \
     static double duration = 0;                 \

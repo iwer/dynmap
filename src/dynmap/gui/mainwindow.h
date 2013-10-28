@@ -1,20 +1,23 @@
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
-#include "gui/PclFullscreen.h"
+//#include "gui/PclFullscreen.h"
 #include "gui/OpenGLFullscreen.h"
 #include "AppController.h"
 #include "AppModel.h"
 #include "common.h"
 #include "displaymodes.h"
 #include "operationmodes.h"
+#include <vtkRenderWindow.h>
 #include <QMainWindow>
 #include <QRect>
 #include <QApplication>
+#include <QDesktopWidget>
 #include <pcl/point_cloud.h>
 #include <pcl/visualization/pcl_visualizer.h>
 #include <pcl/surface/convex_hull.h>
 #include <pcl/common/transforms.h>
+#include <boost/signals2.hpp>
 
 class AppController;
 class AppModel;

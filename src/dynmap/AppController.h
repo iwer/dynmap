@@ -18,13 +18,13 @@
 #include <QMetaType>
 #include <ntk/utils/time.h>
 #include <pcl/visualization/point_picking_event.h>
-
+#include <boost/signals2.hpp>
 
 
 
  class AppModel;
  class MainWindow;
- class I_Controller;
+ //class I_Controller;
 
 /**
  * @class AppController

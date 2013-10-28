@@ -1,13 +1,13 @@
 QT4_WRAP_CPP(moc_sources
   gui/mainwindow.h
-  gui/PclFullscreen.h
+#  gui/PclFullscreen.h
   AppController.h
   OPTIONS -DBOOST_TT_HAS_OPERATOR_HPP_INCLUDED
 )
 
 QT4_WRAP_UI(uic_sources
   gui/mainwindow.ui
-  gui/PclFullscreen.ui
+#  gui/PclFullscreen.ui
 )
 
 QT4_WRAP_CPP(moc_sources1
@@ -25,7 +25,7 @@ SET(dynmap_sources ${moc_sources} ${uic_sources} ${moc_sources1} ${uic_sources1}
                main.cpp
                gui/mainwindow.cpp                  gui/mainwindow.h
                gui/OpenGLFullscreen.cpp            gui/OpenGLFullscreen.h
-               gui/PclFullscreen.cpp               gui/PclFullscreen.h
+               #gui/PclFullscreen.cpp               gui/PclFullscreen.h
                AppController.cpp                   AppController.h
                AppModel.cpp                        AppModel.h
                AppModelData.cpp                    AppModelData.h
